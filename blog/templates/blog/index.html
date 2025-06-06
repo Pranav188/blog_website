@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}
+    My Blog
+{% endblock title %}
+
+{% block css_files %}{% endblock css_files %}
+
+{% block content %}
+<header id = "main_nav">
+    <h1><a href = "">back</a></h1>
+</header>
+<nav>
+    <a href = "">all posts</a>
+</nav>
+<section id = "welcome">
+    <header>
+        <h2>Pranav's Blog</h2>
+    </header>
+    <p>hello guys</p>
+</section>
+<section>
+    <h2>latest posts</h2>
+    <ul>
+        <li>
+            <article class = "posts">
+                <a href = "">
+                    <div class= "post__content">
+                        <h3>mountain trek</h3>
+                        <p>crazy shi</p>
+                    </div>
+                </a>
+            </article>
+        </li>
+    </ul>
+</section>
+
+<section id="about">
+    <h2>what i do</h2>
+    <p>study</p>
+    <p>my goal is to keep on growing as a developer</p>
+</section>
+{% endblock content %}
